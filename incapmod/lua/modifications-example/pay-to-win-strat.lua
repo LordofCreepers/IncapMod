@@ -1,3 +1,6 @@
+-- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Last changed: 22 November 2020
+
 -- This is example how you can make your donators on server OP as hell. They can just destroy you... or... rather... just almost never die
 -- In order for this to work, put this file in "autorun" or
 -- put "include( "modifications-example/pay-to-win-strat.lua" )" at the top of any shared file

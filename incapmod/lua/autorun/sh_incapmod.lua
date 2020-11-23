@@ -1,3 +1,6 @@
+-- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Last changed: 22 November 2020
+
 ----[[ Code ----]]
 -- Library initialization
 IncapMod = IncapMod or {}

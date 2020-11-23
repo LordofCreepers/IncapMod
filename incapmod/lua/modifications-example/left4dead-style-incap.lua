@@ -1,3 +1,6 @@
+-- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Last changed: 22 November 2020
+
 -- This is example of how Left 4 Dead style incapaciation can be done with IncapMod
 -- In order for this to work, put this file in "autorun/server" or
 -- put "include( "modifications-example/left4dead-style-incap.lua" )" at the top of any serverside file

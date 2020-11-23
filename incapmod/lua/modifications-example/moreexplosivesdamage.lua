@@ -1,3 +1,6 @@
+-- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Last changed: 22 November 2020
+
 -- This is example of how you can make incapped players take more explosive damage
 -- Because, I think this one is good for balancing, I already put it in the bottom of "sv_incapmod.lua"
 -- (You can find it - it's "include( "modifications-example/moreexplosivesdamage.lua" )")

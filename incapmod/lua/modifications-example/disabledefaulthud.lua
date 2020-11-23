@@ -1,3 +1,6 @@
+-- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Last changed: 22 November 2020
+
 -- This is example of how you can hide all elements of the IncapMod's default HUD
 -- In order for this to work, put this file in "autorun/client" or
 -- put "include( "modifications-example/disabledefaulthud.lua" )" at the top of any clientside file
