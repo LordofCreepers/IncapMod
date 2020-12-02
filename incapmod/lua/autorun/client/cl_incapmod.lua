@@ -178,6 +178,6 @@ end )
 -- Hook that runs to check player's viewmodel position
 hook.Add( "CalcViewModelView", "OffsetViewModel", function( wep, vm, oldPos, oldAng, pos, ang ) -- Adjusts viewmodel position to correspond to "CalcView"'s result
 	if not IncapMod.Enabled:GetBool() then return end
-	if not ply:IsIncapaciated() then return end
+	if not LocalPlayer():IsIncapaciated() then return end
 	return pos + vec_down, ang -- Lowers viewmodel pos so it doesn't cause any glitches
 end )
