@@ -1,6 +1,5 @@
 {
     "title": "IncapMod",
     "type": "ServerContent",
-    "tags": [ "fun", "realism" ],
-    "ignore": [ "UserGuide.txt" ]
+    "tags": [ "fun", "realism" ]
 }

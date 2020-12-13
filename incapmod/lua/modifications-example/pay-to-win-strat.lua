@@ -1,4 +1,4 @@
--- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Released under GNU General Public License 3.0, 2 June 2007, Copyright (C) 2007 Free Software Foundation
 -- Last changed: 22 November 2020
 
 -- This is example how you can make your donators on server OP as hell. They can just destroy you... or... rather... just almost never die
@@ -50,7 +50,7 @@ end )
 
 if not SERVER then return end
 
-hook.Add( "PlayerShouldBeIncapaciated", "GimmeMoneyOrDi", function( ply )
+hook.Add( "PlayerBlockIncapacitation", "GimmeMoneyOrDi", function( ply )
     return ply:GetUserGroup() == "user" -- "user"s just die
 end )
 
