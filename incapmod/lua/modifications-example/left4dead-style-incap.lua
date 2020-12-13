@@ -1,4 +1,4 @@
--- Released under GNU General Public License 3.0, 2 June 2007,  Copyright (C) 2007 Free Software Foundation
+-- Released under GNU General Public License 3.0, 2 June 2007, Copyright (C) 2007 Free Software Foundation
 -- Last changed: 22 November 2020
 
 -- This is example of how Left 4 Dead style incapaciation can be done with IncapMod
@@ -12,7 +12,7 @@ end )
 
 hook.Add( "EntityTakeDamage", "ScaleDamageBy3", function( ent, dmginfo )
     if not ent:IsPlayer() then return end -- If damaged entity is not player, discard
-    if not ent:IsIncapaciated() then return end -- If player is not incapaciated, discard
+    if not ent:IsIncapacitated() then return end -- If player is not incapaciated, discard
     dmginfo:ScaleDamage( 3 )
 end )
 
